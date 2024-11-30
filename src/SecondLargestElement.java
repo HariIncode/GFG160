@@ -26,13 +26,13 @@ public class SecondLargestElement {
 
     static int method2(int[] arr) {
 
-        int largest = Integer.MIN_VALUE;
+        int largest = -1;
 
         for (int j : arr) {
             if (j > largest) largest = j;
         }
 
-        int secondLargest = Integer.MIN_VALUE;
+        int secondLargest = -1;
 
         for (int j : arr) {
             if (j > secondLargest && j != largest) secondLargest = j;
@@ -43,8 +43,8 @@ public class SecondLargestElement {
 
     static int method3(int[] arr) {
 
-        int largest = Integer.MIN_VALUE;
-        int secondLargest = Integer.MIN_VALUE;
+        int largest = -1;
+        int secondLargest = -1;
 
         for (int j : arr) {
             if (j > largest) {
