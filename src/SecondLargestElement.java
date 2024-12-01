@@ -1,16 +1,13 @@
-import java.io.PrintStream;
 import java.util.Arrays;
 
 public class SecondLargestElement {
-
-    private static int[] arr;
 
     public static void main(String[] args) {
 
         int[] arr = {12, 35, 1, 10, 34, 1};
 
-        int result = method3(arr);
-        System.out.println(result);
+//        int result = method1(arr);
+        System.out.println(method1(arr));
     }
 
     static int method1(int[] arr) {
