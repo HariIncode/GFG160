@@ -5,9 +5,9 @@ public class MoveZerosToEnd {
 
         int[] arr = {1, 2, 0, 4, 3, 0, 5, 0};
 
-//        method1(arr);
-//        method2(arr);
-        method3(arr);
+//        method1(arr); //Creating a temp array
+//        method2(arr); //Moving non-Zero ele to front and add zeros to end
+        method3(arr); //Shifting ele to the front
 
         System.out.println(Arrays.toString(arr));
     }
