@@ -7,7 +7,7 @@ public class MoveZerosToEnd {
 
 //        method1(arr); //Creating a temp array
 //        method2(arr); //Moving non-Zero ele to front and add zeros to end
-        method3(arr); //Shifting ele to the front
+        method3(arr); //Shifting ele to the front(best)
 
         System.out.println(Arrays.toString(arr));
     }
