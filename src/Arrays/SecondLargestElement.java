@@ -50,5 +50,4 @@ public class SecondLargestElement {
         }
         return secondLargest;
     }
-
 }
