@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 public class MoveZerosToEnd {
     public static void main(String[] args) {
-
         int[] arr = {1, 2, 0, 4, 3, 0, 5, 0};
 
 //        method1(arr); //Creating a temp array
