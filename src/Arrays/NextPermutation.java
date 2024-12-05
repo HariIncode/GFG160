@@ -33,7 +33,7 @@ public class NextPermutation {
         }
         System.out.println("Next Permutation"+Arrays.toString(arr));
     }
-    static void swap(int[] arr, int start, int end){
+    public static void swap(int[] arr, int start, int end){
         int temp = arr[start];
         arr[start] = arr[end];
         arr[end] = temp;
