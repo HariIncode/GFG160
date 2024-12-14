@@ -9,7 +9,6 @@ public class MinTheDiffBtwHeights {
         int n = arr.length;
 
         Arrays.sort(arr);
-
         int res = arr[n - 1] - arr[0];
 
         for(int i = 1; i < n; i++) {
